@@ -1,0 +1,17 @@
+{
+    "command": "uname -a",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Returns the output of the 'uname -a' command. \nThis command returns a string that contains (in this order): \n- kernel name\n- network node hostname\n- kernel release\n- kernel version\n- machine hardware name\n- processor type\n- hardware platform\n- operating system.\n\nThe processor type and/or hardware platform may be omitted if they are unknown.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "command": "systemctl status {service_name}",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Checks the status of a specified service.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "service_name": {
+                        "type": "string",
+                        "description": "The name of the service to check."
+                    }
+                },
+                "required": ["service_name"],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "command": "w3m -dump {url}",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Retrieves the content of a webpage using the w3m text-based web browser.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "url": {
+                        "type": "string",
+                        "description": "The URL of the webpage to display."
+                    }
+                },
+                "required": ["url"],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

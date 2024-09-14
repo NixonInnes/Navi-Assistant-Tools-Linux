@@ -1,0 +1,24 @@
+{
+    "command": "cat {file}",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Returns the content of a file.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "file": {
+                        "type": "string",
+                        "description": "The path to the file whose content is to be returned."
+                    }
+                },
+                "required": [
+                    "file"
+                ],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "command": "lscpu",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Returns the output of the 'lscpu' command. \nThis command returns information about the CPU architecture.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

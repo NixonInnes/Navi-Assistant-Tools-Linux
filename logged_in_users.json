@@ -1,0 +1,17 @@
+{
+    "command": "who",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Returns the list of users currently logged in.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

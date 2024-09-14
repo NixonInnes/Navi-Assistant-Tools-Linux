@@ -1,0 +1,29 @@
+{
+    "command": "diff {file1} {file2}",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Compares the contents of two files and displays the differences.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "file1": {
+                        "type": "string",
+                        "description": "The path to the first file to compare."
+                    },
+                    "file2": {
+                        "type": "string",
+                        "description": "The path to the second file to compare."
+                    }
+                },
+                "required": [
+                    "file1",
+                    "file2"
+                ],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

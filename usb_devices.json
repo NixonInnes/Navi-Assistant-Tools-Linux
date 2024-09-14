@@ -1,0 +1,17 @@
+{
+    "command": "lsusb",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Returns the output of the 'lsusb' command. \nThis command returns information about USB buses and devices connected to them.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

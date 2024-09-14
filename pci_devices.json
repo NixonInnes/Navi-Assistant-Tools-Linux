@@ -1,0 +1,17 @@
+{
+    "command": "lspci -nn",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Returns the output of the 'lspci' command. \nThis command returns information about PCI buses and devices connected to them.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

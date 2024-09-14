@@ -1,0 +1,29 @@
+{
+    "command": "rg {pattern} {directory}",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Searches for a specified regex pattern in the given directory or file using ripgrep.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "pattern": {
+                        "type": "string",
+                        "description": "The regex pattern to search for."
+                    },
+                    "directory": {
+                        "type": "string",
+                        "description": "The directory in which to search. Use '.' for the current directory."
+                    }
+                },
+                "required": [
+                    "pattern",
+                    "directory"
+                ],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

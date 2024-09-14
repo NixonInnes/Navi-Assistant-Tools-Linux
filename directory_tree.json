@@ -1,0 +1,24 @@
+{
+    "command": "tree {directory}",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Returns the output of the 'tree' command for a given directory. \nThis command returns a recursive directory listing.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "directory": {
+                        "type": "string",
+                        "description": "The path to the directory whose content is to be listed."
+                    }
+                },
+                "required": [
+                    "directory"
+                ],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

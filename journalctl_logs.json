@@ -1,0 +1,17 @@
+{
+    "command": "journalctl --dmesg --no-pager",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Displays the logs since last boot using journalctl.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

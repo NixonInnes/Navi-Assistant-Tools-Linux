@@ -1,0 +1,17 @@
+{
+    "command": "date",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Returns the current date and time.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

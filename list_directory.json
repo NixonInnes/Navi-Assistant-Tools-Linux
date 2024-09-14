@@ -1,0 +1,22 @@
+{
+    "command": "ls -la {directory}",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Lists all files and directories in the specified directory, including hidden files, in long format.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "directory": {
+                        "type": "string",
+                        "description": "The directory whose contents are to be listed. Use '.' for the current directory."
+                    }
+                },
+                "required": ["directory"],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

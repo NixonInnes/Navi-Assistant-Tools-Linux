@@ -1,0 +1,17 @@
+{
+    "command": "ps aux",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Displays a list of all running processes.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

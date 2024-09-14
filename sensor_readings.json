@@ -1,0 +1,17 @@
+{
+    "command": "sensors",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Returns the output of the 'sensors' command. \nThis command returns temperature, voltage, RPM and power information about the hardware sensors in the system.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "command": "uptime",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Returns the system uptime.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}

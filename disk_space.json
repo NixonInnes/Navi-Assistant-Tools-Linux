@@ -1,0 +1,17 @@
+{
+    "command": "df -h",
+    "input": null,
+    "definition": {
+        "type": "function",
+        "function": {
+            "description": "Displays disk space usage for all mounted filesystems.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+}
